@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="result">
+                <p data-previous-operand id="previousResult">0</p>
+                <p data-current-operand id="currentResult">0</p>
+            </div>
+        </div>
+        <div class="calculatorInput">
+            <div class="button button-1">
+                <button id="clear" data-all-clear class="calculatorButton">AC</button>
+            </div>
+            <div class="button button-2">
+                <button id="backspace" data-delete class="calculatorButton">C</button>
+            </div>
+            <div class="button button-3">
+                <button id="percent" data-operation class="calculatorButton">%</button>
+            </div>
+            <div class="button button-4">
+                <button id="divide" data-operation class="calculatorButton">/</button>
+            </div>
+            <div class="button button-5">
+                <button id="seven" data-number class="calculatorButton">7</button>
+            </div>
+            <div class="button button-6">
+                <button id="eight" data-number class="calculatorButton">8</button>
+            </div>
+            <div class="button button-7">
+                <button value="9" data-number id="nine" class="calculatorButton">9</button>
+            </div>
+            <div class="button button-8">
+                <button id="multiply" data-operation class="calculatorButton">*</button>
+            </div>
+            <div class="button button-9">
+                <button id="four" data-number class="calculatorButton">4</button>
+            </div>
+            <div class="button button-10">
+                <button id="five" data-number class="calculatorButton">5</button>
+            </div>
+            <div class="button button-11">
+                <button id="six" data-number class="calculatorButton">6</button>
+            </div>
+            <div class="button button-12">
+                <button id="subtract" data-operation class="calculatorButton">-</button>
+            </div>
+            <div class="button button-13">
+                <button id="one" data-number class="calculatorButton">1</button>
+            </div>
+            <div class="button button-14">
+                <button id="two" data-number class="calculatorButton">2</button>
+            </div>
+            <div class="button button-15">
+                <button id="three" data-number class="calculatorButton">3</button>
+            </div>
+            <div class="button button-16">
+                <button id="plus" data-operation class="calculatorButton">+</button>
+            </div>
+            <div class="button button-17">
+                <button id="add" data-operation class="calculatorButton">+</button>
+            </div>
+            <div class="button button-18">
+                <button id="decimal" data-number class="calculatorButton">.</button>
+            </div>
+            <div class="button button-19">
+                <button id="equal" data-equals class="calculatorButton">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
